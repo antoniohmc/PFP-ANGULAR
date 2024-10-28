@@ -1,0 +1,52 @@
+/* Estilos para o container de login */
+.login-container {
+  width: 300px;
+  margin: 100px auto; /* Centraliza verticalmente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Fundo branco */
+}
+
+/* Estilos para o título */
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para os grupos de formulário */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilos para os inputs */
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Estilos para o botão de login */
+.login-button {
+  padding: 10px;
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
